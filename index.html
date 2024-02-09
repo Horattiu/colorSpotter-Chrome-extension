@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="popup">
+      <div class="picker">
+        <div class="container-picker">
+          <img
+            src="./icons/dropper.png"
+            alt="icon"
+            class="img"
+            id="color-picker"
+          />
+          <p>pick color</p>
+        </div>
+        <div class="container-generate">
+          <img
+            src="./icons/pantone.png"
+            alt="icon"
+            s
+            class="generate-icon"
+            id="generate-colors"
+          />
+          <p id="">Generate Colors</p>
+        </div>
+      </div>
+
+      <div class="generated-colors hide"></div>
+
+      <div class="picked-colors hide">
+        <header>
+          <p class="title">Picked colors</p>
+          <span class="clear-all">Clear All</span>
+        </header>
+
+        <ul class="all-colors"></ul>
+      </div>
+    </div>
+
+    <header>
+      <p class="subtitle">Generated colors</p>
+    </header>
+
+    <div class="generated-color-palette"></div>
+    <div class="button-container">
+      <button id="find-code-button">HEX Code</button>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
